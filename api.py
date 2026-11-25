@@ -1,3 +1,4 @@
+# lien github:[https://github.com/IssraAlaimi/catalogues_films](https:/github.com/IssraAlaimi/catalogues_films)
 import requests
 url = "https://v3-cinemeta.strem.io/catalog/movie/top.json"
 
@@ -28,9 +29,7 @@ def recuperer_films():
         else:
             print("aucun catalogue trouvé")
             return []
-    else:
-        print("erreur serveur:"reponse.statuts_code)
-        return []
+    else: return []
 
 
 if __name___ == "__main__":
